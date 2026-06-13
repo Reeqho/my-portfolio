@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Radit</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="logo">
+                <a href="index.html">Radit.</a>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="projects.html">Proyek</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Halo, Saya Radit</h1>
+                <p class="hero-subtitle">Web and Desktop Developer</p>
+                <p class="hero-description">
+                    Saya adalah seorang web dan desktop developer dengan pengalaman dalam membangun aplikasi yang
+                    efisien dan user-friendly. Saya memiliki keahlian dalam berbagai teknologi seperti Laravel, C#, dan
+                    Winforms, serta pengalaman dalam instalasi, konfigurasi, dan pemeliharaan perangkat keras komputer.
+                    Saya selalu bersemangat untuk belajar hal baru dan siap untuk menghadapi tantangan dalam dunia
+                    pengembangan perangkat lunak.
+                </p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary">Hubungi Saya</a>
+                    <a href="projects.html" class="btn btn-secondary">Lihat Proyek</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <!-- Ganti dengan image Anda -->
+                    <img src="assets/images/profile.jpg" alt="Radit"
+                        onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzMzMzMzMyIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjI0IiBmaWxsPSIjOTk5OTk5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+UHJvZmlsZSBJbWFnZTwvdGV4dD48L3N2Zz4='">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS -->
+    <section class="featured-projects">
+        <div class="container">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div class="projects-grid">
+               <!-- project grid items will be populated by JavaScript -->
+            </div>
+            <!-- <div class="view-more">
+                <a href="projects.html" class="btn btn-primary">Lihat Semua Proyek</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Keahlian</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Vue.js</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h3>Desktop Development</h3>
+                    <p>C#, .NET, Entity Framework Core</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Hardware Experience</h3>
+                    <p>Pengalaman dalam instalasi, konfigurasi, dan pemeliharaan perangkat keras komputer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimoni Klien</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Radit sangat profesional dan deliver hasil yang melampaui ekspektasi.
+                        Komunikasi jelas dan timeline terpenuhi."</p>
+                    <p class="testimonial-author">- Budi Santoso, CEO TechStart</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Website yang dibuat sangat user-friendly dan responsive. Traffic
+                        website kami naik 150% dalam 3 bulan."</p>
+                    <p class="testimonial-author">- Siti Nurhaliza, Pemilik Toko Online</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Kerja sama dengan Radit sangat smooth. Tim responsif dan selalu siap
+                        membantu saat ada pertanyaan."</p>
+                    <p class="testimonial-author">- Ahmad Wijaya, Direktur Marketing</p>
+                </div>
+            </div>
+        </div> -->
+    </section>
+
+    <!-- CTA SECTION
+    <section class="cta">
+        <div class="container">
+            <h2>Siap untuk Proyek Berikutnya?</h2>
+            <p>Mari kita ciptakan sesuatu yang luar biasa bersama</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Mulai Percakapan</a>
+        </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio Radit</h3>
+                    <p>Web Developer & Desktop Developer yang passion dalam menciptakan pengalaman digital yang amazing.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                        <li><a href="projects.html">Proyek</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Sosial Media</h3>
+                    <ul class="social-links">
+                        <li><a href="link" target="_blank">LinkedIn</a></li>
+                        <li><a href="link" target="_blank">GitHub</a></li>
+                        <li><a href="link" target="_blank">Instagram</a></li>
+                        <li><a href="link" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Radit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

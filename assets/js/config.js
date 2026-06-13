@@ -79,7 +79,7 @@ const portfolioConfig = {
         description: "Portfolio profesional Radit - Web Developer & Designer dengan pengalaman 5+ tahun",
         keywords: "web developer, designer, portfolio, frontend, react, vue.js",
         author: "Radit",
-        ogImage: "assets/images/profile.jpg"
+        ogImage: "assets/images/profile.png"
     },
 
     // Pengaturan Kontak
